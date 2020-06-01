@@ -350,7 +350,7 @@ class Tooltip extends Component {
             width,
             top: y,
             left: x,
-            alignItems: 'center',
+            // alignItems: 'center', commenting this because it shrinked content to center
             justifyContent: 'center',
           }}
         >
